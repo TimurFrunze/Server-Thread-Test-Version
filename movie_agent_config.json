@@ -1,0 +1,32 @@
+{
+"host": "testapi.fuhu.tech",
+"port": 3306, 
+"user": "ai_creator",
+"password": "ai_creator123456",
+"db": "vimaxai", 
+"max_connections": 10, 
+"output_path": "./test_output",
+"log_path": "./log.txt",
+"max_retry_times": 5,
+"generate_retry_times": 3,
+"heart_beat_interval": 600,
+"fields": {
+    "id": "id",
+    "created_at": "created_at",
+    "updated_at": "updated_at",
+    "deleted_at": "deleted_at",
+    "prompt": "prompt",
+    "user_id": "user_id",
+    "task_uuid": "task_uuid",
+    "width": "width",
+    "height": "height",
+    "state": "state",
+    "progress": "progress",
+    "description": "description",
+    "text_to_video_pack_id": "text_to_video_pack_id",
+    "retry_times": "retry_times"
+    },
+"table_name": "text_to_video_tasks",
+"time_overflow_seconds": 1800
+}
+
